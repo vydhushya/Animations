@@ -1,0 +1,110 @@
+
+<html>
+    <head>
+      <meta charset="utf-8"/>
+        
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+<style>
+body {
+  font-family:  sans-serif;
+  color: #aa8282;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+.heading-style-h1 {
+  font-size: 9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading-style-h1.large {
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+.image-sticky-component {
+  display: -ms-grid;
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  justify-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 10vw;
+  grid-row-gap: 10vw;
+}
+
+.image-sticky-wrapper {
+  position: sticky;
+  bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-sticky-wrapper._3 {
+  z-index: 3;
+}
+
+.image-sticky-wrapper._2 {
+  z-index: 2;
+}
+
+.image-sticky-wrapper._1 {
+  z-index: 1;
+}
+
+
+
+.image-sticky {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 22rem;
+  height: 30rem;
+}
+
+.image-sticky._3 {
+  right: -6rem;
+  bottom: -10rem;
+}
+
+.image-sticky._2 {
+  left: -14rem;
+  bottom: -5rem;
+}
+
+.image-sticky._1 {
+  right: -12rem;
+  bottom: -2rem;
+}
+
+</style>
+</head>
+<body> 
+            <main class="main-wrapper">
+                    <div class="image-sticky-component">
+                        <div class="image-sticky-wrapper _3">
+                            <div class="image-sticky _3">
+                                <img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg"/>
+                            </div>
+                        </div>
+                        <div class="image-sticky-wrapper _2">
+                            <div class="image-sticky _2">
+                                <img src="https://thumbs.dreamstime.com/b/summer-sunny-forest-trees-green-grass-nature-wood-sunlight-background-instant-toned-image-53353502.jpg"/>
+                            </div>
+                        </div>
+                        <div class="image-sticky-wrapper _1">
+                            <h1 class="heading-style-h1 large">Hello</h1>
+                            <div class="image-sticky _1">
+                                <img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__340.jpg" />
+                            </div>
+                        </div>
+                    </div>
+            </main> 
+    </body>
+</html>
