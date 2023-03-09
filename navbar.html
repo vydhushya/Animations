@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Nav</title>
+    <style>
+        /* default css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: #000;
+}
+/*head nav bar*/
+.header-area {
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbar-area {
+  background: rgba(0,0,0,.6);
+  border-bottom: 1px solid #000;
+  width: 100%;
+  margin-top: 2%;
+  
+}
+.site-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a.site-logo {
+  text-decoration: none;
+  margin-left: 4%;
+  
+}
+.site-navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.site-navbar a {
+  color: #fff;
+  padding:1rem;
+  display: block;
+  text-decoration: none;
+}
+.site-navbar ul li {
+  color: #fff;
+  padding:1rem;
+  display:block;
+  
+  text-decoration: none;
+
+  width: 100%;
+}
+.site-navbar ul li a:hover {
+  background: rgba(255,255,255,.1);
+}
+
+/*footer*/
+
+.footer1 {
+   width: 100%;
+   color: rgb(120, 113, 113);
+   text-align: center;
+}
+
+.footer2{
+  color: rgb(241, 242, 243);
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left{
+  width: 60%;
+}
+
+.right , .middle{
+  width: 20%;
+}
+    </style>
+    </head>
+    <body>
+        <header class="header-area">
+            <div class="navbar-area">
+                <nav class="site-navbar">
+                  <!-- site logo -->
+                  <a href="#home" class="site-logo"><img src="tellataler.png" alt="Logo" width="100px"></a>
+          
+                  <!-- site menu/nav -->
+                  <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </nav>
+            </div><!-- navbar-area end -->
+          </header>
+
+
+
+<!--footer-2-->
+  <div class="footer">
+    
+    <div class="row footer2">
+      
+      <div class="column left" style="background-color:#000000; font-family: serif;">
+        
+        <h1 style="width: 80%; margin: 10%; font-weight: 600;">What we do might seem simple,<br>
+          but only at first glance.</h1>
+      </div>
+      <div class="column middle" style="background-color:#000000;">
+        <p style="font-size:large; font-weight: lighter;">get in touch</p><br>
+        <p>Unit 219, 14-20<br> Nicholson Street,<br> Coburg, 3058, Victoria,<br> Australia</p>
+        <p>fred@tellataler.com"</p>
+      </div>
+      <div class="column right" style="background-color:#8a1919;">
+        <p>hello</p>
+      </div>
+    </div>
+        
+    
+    <div class="row footer1">
+      <div class="col-lg-4 col-md-6 col-sm-2">
+        <p>ABN - 87642181548</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-2">
+          <p>All rights reserved by TELLATALER LTD</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-2">
+            <p>Developed by Quebec Technologies</p>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
